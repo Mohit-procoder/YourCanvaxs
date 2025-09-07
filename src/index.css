@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+#root {
+  height: 100%;
+}
+.main {
+  border: 2px solid rgba(52, 49, 49, 0.5);
+  background-color: rgba(110, 108, 108, 0.542);
+}
+.allTools {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+  flex-direction: column;
+  gap: 15px;
+}
+.penera{
+  height: 75px;
+  max-width: 700px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border: 2px solid gray;
+  background-color: rgba(128, 128, 128, 0.508);
+  border-radius: 12px;
+}
+.pencil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  height: 100%;
+  border-right-style: solid;
+  border-radius: 12px;
+}
+.shapessmalll1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pencil span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#pencil_color {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: black;
+  border: none;
+}
+#shape_color {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: black;
+  border: none;
+}
+#pencilRange {
+  width: 100%;
+  max-width: 300px;
+}
+.eraser {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+  gap: 10px;
+  border-right-style: solid;
+  border-radius: 12px;
+}
+.shapesLarge {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 12px;
+}
+.shapesSmall {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 12px;
+}
+.getshape {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.allTools span {
+  padding: 5px;
+  display: inline-block;
+  cursor: pointer;
+}
+span{
+  padding: 5px;
+  display: inline-block;
+}
+.mainShapes {
+  border: 2px solid rgba(52, 49, 49, 0.5);
+  
+  border-radius: 12px;
+}
+.mainShapes span {
+  border-radius: 12px;
+}
+.getshape :nth-child(1) {
+  border-radius: 12px;
+}
+.fillshapes :nth-child(2) {
+  border-radius: 3px;
+}
+.mainShapes span:hover {
+  background-color: gray;
+}
+.fillshapes {
+  display: flex;
+  gap: 3px;
+  flex-wrap: nowrap;
+}
+select {
+  width: 80%;
+}
+canvas {
+  border: 2px solid rgba(52, 49, 49, 0.5);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  background-color: whitesmoke;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.tool2 {
+  background-color: rgba(110, 108, 108, 0.542);
+  border: 2px solid rgba(52, 49, 49, 0.5);
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  display: flex;
+  justify-content: space-between;
+}
+.tool2 div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  max-height: 200px;
+}
+.selmainn{
+  display: none;
+}
+@media (width >= 900px) {
+  .allTools{
+    flex-direction: row;
+  }
+  .shapesLarge {
+    display: flex;
+  }
+  .shapesSmall {
+    display: none;
+  }
+  input {
+    margin-left: 12px;
+  }
+  .tool2 {
+    flex-direction: column;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    padding-top: 10px;
+    padding-bottom: 40px;
+  }
+  .tool2 div{
+  gap: 10px;
+  flex-direction: column;
+  }
+  .selmainn{
+    display: inline;
+  }
+}
+input {
+  margin-left: 6px;
+}
+h2 {
+  text-align: center;
+}
+.color-input-wrapper {
+  display: inline-block;
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+.color-input {
+  width: 100%;
+  height: 100%;
+  border-radius: 60%;
+  border: none;
+  cursor: pointer;
+  background-color: black;
+}
+
+.color-input::-webkit-color-swatch {
+  opacity: 0;
+  border: none;
+}
+
+.color-input::-moz-color-swatch {
+  border-radius: 100%;
+  border: none;
+}
+.main2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 3fr 1fr;
+  row-gap: 5px;
+  height: 80%;
+}
+.clear{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  border-radius: 20px;
+  height: 80px;
+  cursor: pointer;
+}
+.saveimg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  border-radius: 20px;
+  height: 80px;
+  cursor: pointer;
+}
+.selection{
+  border: 2px solid gray;
+  background-color: rgba(128, 128, 128, 0.508);
+  border-radius: 12px;
+}
+.selection div{
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.sel1{
+  display: flex;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.sel1:hover{
+  border-radius: 12px;
+  background-color: gray;
+}
+.undo{
+  border: 2px solid gray;
+  background-color: rgba(128, 128, 128, 0.508);
+  border-radius: 12px;
+}
