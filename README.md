@@ -1,12 +1,48 @@
-# React + Vite
+🎨 yourCanvaxs
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and interactive drawing website where creativity meets simplicity.
 
-Currently, two official plugins are available:
+🚀 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+yourCanvaxs is a web-based drawing platform that allows users to unleash their creativity directly from their browser. Whether you want to sketch quick ideas, doodle, or create digital art, yourCanvaxs provides an intuitive and smooth experience.
 
-## Expanding the ESLint configuration
+✨ Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🖌️ Drawing Tools – Multiple brushes, colors, and pen sizes.
+
+📐 Shapes & Lines – Draw circles, rectangles, and straight lines with ease.
+
+🌈 Color Picker – Choose from a full spectrum of colors.
+
+🧽 Eraser Tool – Quickly fix mistakes or clear parts of your canvas.
+
+💾 Save Artwork – Download your creations as images.
+
+♻️ Undo & Redo – Never worry about mistakes.
+
+📱 Responsive Design – Works on desktop, tablet, and mobile.
+
+🛠️ Tech Stack
+
+Frontend: HTML, CSS (Tailwind/Vanilla CSS), JavaScript, React Js
+
+Canvas API: For rendering drawings
+
+Other Tools: React Js
+
+📸 Demo
+
+👉 Live Website
+https://your-canvaxs.netlify.app/
+
+📂 Installation & Setup
+
+Clone the repository and run locally:
+
+# Clone the repository
+git clone https://github.com/your-username/yourCanvaxs.git
+
+# Navigate into the project folder
+cd yourCanvaxs
+
+# Open index.html in your browser
