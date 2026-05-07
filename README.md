@@ -1,4 +1,4 @@
-🎨 yourCanvaxs
+ 🎨 yourCanvaxs
 
 A modern and interactive drawing website where creativity meets simplicity.
 
